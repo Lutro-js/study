@@ -148,3 +148,9 @@ a:hover {
         top: 24px;
     }
 }
+
+.wrapper-1080 {
+    max-width: 1120px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
