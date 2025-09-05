@@ -33,3 +33,22 @@
 .mainvisual .image {
     max-width: 560px;
 }
+
+@media screen and (max-width: 767px) {
+    .mainvisual {
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+        padding: 50px 0 90px;
+    }
+    .mainvisual .inner {
+        flex-direction: column;
+    }
+    .mainvisual .text .catchphrase {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .mainvisual .text .description {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    
+}
