@@ -186,3 +186,13 @@ a:hover {
     left: 0;
     right: 0;
 }
+
+@media screen and (max-width: 767px) {
+    .section-title {
+        font-size: 24px;
+        margin-bottom: 60px;
+    }
+    .section-title::after {
+        width: 60px;
+    }
+}

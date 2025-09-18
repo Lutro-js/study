@@ -88,3 +88,20 @@
     margin-bottom: 20px;
     text-align: center;
 }
+
+@media screen and (max-width: 767px) {
+    .reason  {
+        margin-bottom: 40px;
+    }
+    .reason .item {
+        flex-direction: column;
+        align-items: center;
+    }
+    .reason .item li {
+        width: 100%;
+        margin: 0 0 40px;
+    }
+    .reason .item li:last-child {
+        margin-bottom: 0;
+    }
+}
