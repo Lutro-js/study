@@ -196,3 +196,8 @@ a:hover {
         width: 60px;
     }
 }
+
+.highlight {
+    background: linear-gradient(transparent 50%, #fff390 50%);
+    font-weight: 700;
+}
