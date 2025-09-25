@@ -268,3 +268,21 @@
 .voice .item .text .age {
     text-align: right;
 }
+
+@media screen and (max-width: 767px) {
+    .voice {
+        margin-bottom: 40px;
+    }
+    .voice .item .img {
+        width: 100px;
+        flex-shrink: 0;
+        margin-right: 20px;
+    }
+    .voice .item .img:nth-child(2) {
+        margin-left: 20px;
+    }
+    .voice .item .text {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
