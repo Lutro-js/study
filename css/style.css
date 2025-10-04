@@ -277,3 +277,22 @@ a:hover {
     font-size: 12px;
     text-align: center;
 }
+
+@media screen and (max-width: 767px) {
+    #footer .inner {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    #footer .logo {
+        margin-left: 20px;
+    }
+    #footer .menu li {
+        margin-left: 30px;
+    }
+    #footer .menu li::after {
+        right: -15px;
+    }
+    #footer .menu li:first-child {
+        margin-left: 0;
+    }
+}
