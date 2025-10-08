@@ -296,3 +296,23 @@ a:hover {
         margin-left: 0;
     }
 }
+
+.page-header {
+    background-color: #ffed58;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+    padding: 60px 0 100px;
+    text-align: center;
+}
+
+.page-header .page-title .ja {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.page-header .page-title .en {
+    display: block;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
